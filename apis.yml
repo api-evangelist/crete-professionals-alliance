@@ -1,21 +1,46 @@
 aid: crete-professionals-alliance
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/crete-professionals-alliance.png
 name: Crete Professionals Alliance
-description: 'Crete Professionals Alliance is a company surfaced as a portfolio company of bessemer-venture-partners
-  and added to the API Evangelist network as a stub for enrichment. Sector: unknown. This profile is a
-  lead awaiting the enrichment pipeline.'
+description: 'Crete Professionals Alliance (rebranded in 2025 as "Current", current.co) is a growth
+  platform for independent accounting firms, backed by Bessemer Venture Partners. The alliance provides
+  member firms with technology, talent, capital, and strategy to compete at enterprise scale, spanning
+  48 partner firms across 39 states and 3 countries with more than 2,000 employees. Service lines include
+  accounting, advisory, audit and attest, client accounting services, and tax. This is a professional
+  services / accounting company, not a developer-facing API provider: it publishes no developer portal,
+  API, SDKs, or technical documentation. The record is maintained in the API Evangelist network for
+  portfolio-graph coverage of Bessemer holdings.'
 url: https://raw.githubusercontent.com/api-evangelist/crete-professionals-alliance/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - bessemer-venture-partners
 x-tier: stub
-x-tier-reason: portfolio-lead
+x-tier-reason: non-api-professional-services
+x-former-name: Crete Professionals Alliance
+x-current-name: Current
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
-- Unknown
+- Accounting
+- Professional Services
+- Advisory
+- Tax
+- Audit
+- Finance
+- Bookkeeping
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +48,16 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/crete-professionals-alliance-domain-security.yml
 - type: Website
-  url: https://www.cretepa.com/
+  url: https://www.current.co/
+- type: PrivacyPolicy
+  url: https://www.current.co/privacy-policy
+- type: Blog
+  url: https://www.current.co/news
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
